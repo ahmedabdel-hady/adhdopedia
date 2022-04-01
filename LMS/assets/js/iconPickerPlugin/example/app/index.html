@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icon library example</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+</head>
+
+<body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="https://arielwb.github.io/" class="">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            Ariel Borges
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="https://github.com/arielwb/iconLibraryPlugin/">Github repo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1 class="text-muted">Icon library </h1>
+        </div>
+
+
+        <h3 class="text-muted">Instructions:</h3>
+
+        <p>
+            Include the script
+            <br>
+            <pre>&lt;script src="pathTo/ttIcons.js"&gt;&lt;/script&gt;</pre>
+            <br>
+        </p>
+        <p>
+
+            Add an element with a
+            <code>tt-icon-picker</code> class
+            <br> In this element, add a
+            <code>data-controls</code> attribute with the id of the input that should have it´s value controlled by this button
+            <br>
+            <pre>&lt;button class="tt-icon-picker" data-controls="icon-category" &gt;&lt;/button&gt;</pre>
+            <br>
+        </p>
+        <p>
+            Add and input with the same
+            <code>id</code> of the data-controls value
+            <br>
+            <pre>&lt;input type="hidden" id="icon-category"&gt;&lt;/input&gt;</pre>
+            <br>
+        </p>
+
+        <h3 class="text-muted">Sample:</h3>
+
+        <input type="hidden" id="icon-category" value="lock">
+        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-category">+ icon</button>
+
+        <input type="hidden" id="icon-product">
+        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-product"></button>
+
+
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+            e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-114493066-1'); ga('send', 'pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/ttIcons.min.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

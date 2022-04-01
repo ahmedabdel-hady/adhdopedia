@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>clock</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6811 452)">
+<g id="clock">
+<use xlink:href="#path0_fill" transform="translate(-6811 -452)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10 0C 4.48598 0 0 4.48588 0 10C 0 15.5141 4.48598 20 10 20C 15.514 20 20 15.5141 20 10C 20 4.48588 15.514 0 10 0ZM 13.3533 9.99023L 10.01 10L 10 4.98983C 10 4.53532 9.62138 4.16667 9.16667 4.16667C 8.71196 4.16667 8.33333 4.53532 8.33333 4.98983L 8.33333 10.8431C 8.33333 11.298 8.71196 11.6667 9.16667 11.6667L 13.3533 11.6569C 13.808 11.6569 14.1667 11.2882 14.1667 10.8333C 14.1667 10.3788 13.808 9.99023 13.3533 9.99023Z"/>
+</defs>
+</svg>

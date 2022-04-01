@@ -1,0 +1,1 @@
+eduappgt.Materialize=function(){$.material.init(),$(".checkbox > label").on("click",function(){$(this).closest(".checkbox").addClass("clicked")})},$(document).ready(function(){eduappgt.Materialize()});

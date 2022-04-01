@@ -1,0 +1,197 @@
+body,
+html {
+  margin: 0px;
+  background-color: #99bf2d;
+  font-weight:normal;
+  font-family:Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:16px;
+  color: #fff;
+  overflow-x: hidden;
+  min-height: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none; 
+}
+
+
+.corner {
+  width: 21px; height: 21px;
+  border-radius: 5px; 
+  background-color: #4d0e27;
+  border: 3px solid #f04822;
+  position: absolute;
+  margin-top: 188px; 
+  -webkit-transform: rotate(45deg); 
+          transform: rotate(45deg); 
+  z-index: -1; 
+}
+.corner.two {
+  margin-left: 33px; 
+}
+.corner.three {
+  margin-left: 66px; 
+}
+.corner.four {
+  margin-left: 98px; 
+}
+
+.over {
+  width: 27px; height: 27px;
+  border-radius: 3px; 
+  background-color: #4d0e27;
+  position: absolute;
+  margin-top: 188px; 
+  -webkit-transform: rotate(45deg) translateX(3px) translateY(3px); 
+          transform: rotate(45deg) translateX(3px) translateY(3px); 
+}
+.over.two {
+  margin-left: 33px; 
+}
+.over.three {
+  margin-left: 66px; 
+}
+.over.four {
+  margin-left: 98px; 
+}
+
+.eye {
+  width: 10px; height: 10px;
+  border-radius: 10px; 
+  background-color: #f04822; 
+  position: absolute; margin: 50px auto; 
+  left: 0;right: 0;
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px); 
+}
+.eye.two {
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px); 
+}
+
+.mouth {
+  width: 40px; height: 4px;
+  border-radius: 10px; 
+  background-color: #f04822; 
+  position: absolute; margin: 75px auto; 
+  left: 0;right: 0;
+}
+.tonge {
+  width: 4px; height: 10px;
+  border-radius: 0px 0px 50px 50px; 
+  background-color: #f04822; 
+  position: absolute; margin: 2px auto; 
+  left: 0;right: 0;
+  -webkit-transform: translateX(-6px);
+          transform: translateX(-6px); 
+  border-left: 5px solid rgba(0,0,0,.3);
+  border-right: 5px solid rgba(0,0,0,.3);
+  border-bottom: 5px solid rgba(0,0,0,.3);
+}
+
+.shadow {
+  width: 120px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+  margin: 230px auto;
+  left: 0;
+  right: 0;
+  -webkit-animation: shadow 1.5s ease-in-out alternate infinite;
+          animation: shadow 1.5s ease-in-out alternate infinite;
+}
+
+.text{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(75px);
+            transform: scale(0.8) translateY(75px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(75px);
+            transform: scale(0.8) translateY(75px);
+  }
+}
+@-webkit-keyframes ghost {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px)
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(-40px);
+            transform: scale(1) translateY(-40px)
+  }
+}
+@keyframes ghost {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px)
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(-40px);
+            transform: scale(1) translateY(-40px)
+  }
+}
+
+header {
+  padding: 35px 40px;
+  position: absolute;
+  z-index: 1
+}
+header img {
+  display:block;
+  max-height: 40px;
+  max-width: 40px;
+  margin: 15px 0;
+}
+header .divider {
+  border-bottom: solid 1px rgba(99,40,62, 1);
+  margin: 20px 0;
+}
+
+.main {
+  margin-top: 235px;
+  text-align: center;
+}
+.main h2 {
+  color: #fff;
+  font-size: 32px;
+}
+.main h6 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.main .error {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -10vw;
+  color: rgba(255,255,255,.03);
+  font-size: 25vw;
+  text-align: center;
+  font-weight: 900;
+  font-family: sans-serif;
+}

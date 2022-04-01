@@ -1,0 +1,18 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>grid</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6601 872)">
+<g id="grid">
+<use xlink:href="#path0_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path1_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path2_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path3_fill" transform="translate(-6601 -872)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 2.72727 0C 1.22115 0 0 1.34314 0 3L 0 6C 0 7.65686 1.22115 9 2.72727 9L 6.36364 9C 7.86976 9 9.09091 7.65686 9.09091 6L 9.09091 3C 9.09091 1.34314 7.86976 0 6.36364 0L 2.72727 0Z"/>
+<path id="path1_fill" d="M 13.6364 0C 12.1302 0 10.9091 1.34314 10.9091 3L 10.9091 6C 10.9091 7.65686 12.1302 9 13.6364 9L 17.2727 9C 18.7789 9 20 7.65686 20 6L 20 3C 20 1.34314 18.7789 0 17.2727 0L 13.6364 0Z"/>
+<path id="path2_fill" d="M 10.9091 14C 10.9091 12.3431 12.1302 11 13.6364 11L 17.2727 11C 18.7789 11 20 12.3431 20 14L 20 17C 20 18.6569 18.7789 20 17.2727 20L 13.6364 20C 12.1302 20 10.9091 18.6569 10.9091 17L 10.9091 14Z"/>
+<path id="path3_fill" d="M 2.72727 11C 1.22115 11 0 12.3431 0 14L 0 17C 0 18.6569 1.22115 20 2.72727 20L 6.36364 20C 7.86976 20 9.09091 18.6569 9.09091 17L 9.09091 14C 9.09091 12.3431 7.86976 11 6.36364 11L 2.72727 11Z"/>
+</defs>
+</svg>

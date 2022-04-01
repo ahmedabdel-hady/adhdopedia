@@ -1,0 +1,12 @@
+<svg width="18" height="20" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>checkout</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6539 872)">
+<g id="checkout">
+<use xlink:href="#path0_fill" transform="translate(-6539 -872)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 14 13L 11 13L 11 16L 14 16L 14 13ZM 16 2L 15 2L 15 0L 13 0L 13 2L 5 2L 5 0L 3 0L 3 2L 2 2C 0.89 2 0.00999999 2.9 0.00999999 4L 0 18C 0 19.1 0.89 20 2 20L 16 20C 17.1 20 18 19.1 18 18L 18 4C 18 2.9 17.1 2 16 2ZM 16 18L 2 18L 2 7L 16 7L 16 18Z"/>
+</defs>
+</svg>

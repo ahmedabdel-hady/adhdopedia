@@ -1,0 +1,18 @@
+<svg width="18" height="13" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>email</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6740 588)">
+<g id="email">
+<use xlink:href="#path0_fill" transform="translate(-6740 -588)"/>
+<use xlink:href="#path1_fill" transform="translate(-6740 -588)"/>
+<use xlink:href="#path2_fill" transform="translate(-6740 -588)"/>
+<use xlink:href="#path3_fill" transform="translate(-6740 -588)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 16.7051 0C 17.0508 -1.27631e-25 17.3623 0.133911 17.5938 0.352295L 9.65479 7.23236C 9.27881 7.55811 8.7207 7.55811 8.34473 7.23242L 0.408691 0.354919C 0.640137 0.135193 0.951172 -6.9753e-25 1.29443 0L 16.7051 0Z"/>
+<path id="path1_fill" d="M 7.6748 7.92688C 8.43164 8.59662 9.56934 8.59662 10.3257 7.92688L 11.2271 7.12915L 17.5903 12.6476C 17.3604 12.8647 17.0488 12.9999 16.7056 12.9999L 1.29492 12.9999C 0.950684 12.9999 0.638184 12.8647 0.406738 12.6476L 6.77344 7.12915L 7.6748 7.92688Z"/>
+<path id="path2_fill" d="M 0 1.14117L 0 11.756L 6.10693 6.50867L 0 1.14117Z"/>
+<path id="path3_fill" d="M 18 11.756L 11.8931 6.50867L 18 1.13733L 18 11.756Z"/>
+</defs>
+</svg>

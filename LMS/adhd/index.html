@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <link rel = "stylesheet" href = "style.css" />
+  <script type="module" src="firebase.js"></script>
+</head>
+<body>
+
+
+  <header class = "site-header">
+
+    <!-- woo v's spotify code -->
+
+    <div class= "spotify-box">
+      <div style= "position: relative; left: 10%; top: -700%; border-radius: 5%; width: 300px; overflow: hidden;">
+      <iframe src="https://open.spotify.com/embed/playlist/5vwNi0Km340HsC5UfwaaIa?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+      </iframe>
+      </div>
+    </div>
+
+    <div id = "site-header-name">
+      ADHDopedia
+    </div>
+
+  </header>
+  <hr />
+  <main class = "site-main">
+
+
+<!-- timer buttons pomo short break long break whatnot  -->
+  <div class = "timer-buttons">
+
+  <button type = "button" class = "timer__btn timer__btn--pomodoro">
+  <span class = "material-icons">emoji_objects</span>
+   </button>
+   <button type = "button" class = "timer__btn timer__btn--shortbreak">
+   <span class = "material-icons">free_breakfast</span>
+    </button>
+    <button type = "button" class = "timer__btn timer__btn--longbreak">
+    <span class = "material-icons">bed</span>
+     </button>
+  </div>
+
+
+<!-- TIMER STUFF LOTS OF STUFF  -->
+<!-- makes timer go on and off and gives us play button -->
+    <div class="timer">
+
+      <span class="timer__part timer__part--minutes">00</span>
+      <span class="time__part">:</span>
+        <span class="timer__part timer__part--seconds">00</span>
+        <button type = "button" class = "timer__btn timer__btn--control timer__btn--start">
+        <span class = "material-icons">play_arrow</span>
+         </button>
+
+         <!-- <button type = "button" class = "timer__btn timer__btn--pomodoro">
+         <span class = "material-icons">emoji_objects</span>
+          </button> -->
+
+          <span class = "timer__btn--reset"></span>
+
+    </div>
+    <script src = "main.js"  type = "module"></script>
+
+
+
+<!-- Start of TODO LIST! -->
+<!--
+<div class="all-tasks">
+      <h2 class="task-list-title">My lists</h2>
+      <ul class="task-list">
+        <li class="list-name active-list">Youtube</li>
+        <li class="list-name">Work</li>
+        <li class="list-name">Grocery</li>
+      </ul>
+
+      <form action="">
+        <input
+          type="text"
+          class="new list"
+          placeholder="new list name"
+          aria-label="new list name"
+        />
+        <button class="btn create" aria-label="create new list">+</button>
+      </form>
+    </div> -->
+
+<!-- to do  -->
+
+<div id="myDIV" class="header">
+  <h2>Tasks To Do: </h2>
+  <input type="text" id="myInput" placeholder="Task to Add...">
+  <span id="taskAdd" class="addBtn" onclick="addTask()">+</span>
+  <script src="task.js"></script>
+</div>
+
+<ul id="myUL">
+  <li>C++ Quiz </li>
+  <li class="checked">read chapter 16</li>
+  <li>CS50x prep</li>
+  <li>make flashcards</li>
+  <li>make a study guide</li>
+  <li>Qroup meeting</li>
+</ul>
+
+
+  
+
+
+
+  </main>
+
+
+</body>
+
+</html>

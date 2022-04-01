@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+  background-color: #318fa5;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+}
+
+
+hr {
+  /* styling */
+}
+
+/* header content */
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 1%;
+
+}
+
+/* button {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+
+} */
+
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #51a9bd;
+  height: 100px;
+  width: 300px;
+  padding: 30px;
+
+}
+
+.timer__part {
+  font-size: 56 px;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.timer__btn {
+  width: 90px;
+  height: 30px;
+  margin-left: 16px;
+  border-radius: 20%;
+  border: none;
+  color: white;
+  background: #4d9eb1;
+  cursor: pointer;
+}
+
+/* .timer_btn--reset {
+  color: #4d9eb100;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.timer__btn--start {
+  background: #65cd65;
+}
+
+.timer__btn--stop {
+  background: red;
+}
+
+.timer__btn--pomodoro {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+
+.start {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 390px;
+  padding: 10px;
+}
+
+#site-header-name {
+  font-size: larger;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  flex-grow: 2;
+  padding-left: 5%;
+}
+
+#site-header-socials {
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.15em;
+  flex-grow: 0.1;
+  padding-left: 10.5%;
+}
+
+.spotify-box {
+  width: 30px;
+  height: 3px;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+/* header content */
+
+#site-main-greeting {
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+
+.tasks {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #9eced9;
+  border-radius: 10px;
+  padding: 7px;
+  height: 50px;
+  width: 400px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.testtask {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  height: 50px;
+  width: 400px;
+  background-color: #9eced9;
+  border-radius: 10px;
+}
+
+
+
+#site-main-buttons {
+  font-weight: 400;
+  margin-top: 10%;
+
+}
+
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 150px 12px 30px;
+  border-radius: none;
+  background: #ffb3b3;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style-type: none;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #65b183;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #65cd65;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #318fa5;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 9.5px;
+  width: 25%;
+  background: #b2e2ed;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #f8fafb;
+}

@@ -1,0 +1,1 @@
+eduappgt.FormValidation=function(){$(".needs-validation").each(function(){var a=$(this)[0];a.addEventListener("submit",function(t){0==a.checkValidity()&&(t.preventDefault(),t.stopPropagation()),a.classList.add("was-validated")},!1)})},$(document).ready(function(){eduappgt.FormValidation()});

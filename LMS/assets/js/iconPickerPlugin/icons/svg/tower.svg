@@ -1,0 +1,24 @@
+<svg width="22" height="34" viewBox="0 0 22 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>tower</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6672 459)">
+<g id="tower">
+<use xlink:href="#path0_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path1_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path2_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path3_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path4_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path5_fill" transform="translate(-6672 -459)"/>
+<use xlink:href="#path6_fill" transform="translate(-6672 -459)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 11.5951 0L 15.1734 10.7352L 15.3263 10.9957L 21.8325 15.5C 21.8705 15.3921 21.8919 15.2777 21.8945 15.1606C 21.9021 14.8223 21.7528 14.4994 21.4901 14.2861L 18.9055 12.1875L 11.8897 0.325267C 11.8131 0.195909 11.7124 0.0860609 11.5951 0Z"/>
+<path id="path1_fill" d="M 10.2997 0L 6.72132 10.7352L 6.56844 10.9957L 0.068643 15.4955C 0.0246103 15.3771 0.00082325 15.2507 2.14402e-05 15.1211C -0.00211672 14.779 0.155773 14.4556 0.426784 14.2468L 3.11371 12.1776L 10.001 0.332216C 10.0779 0.199918 10.1802 0.0876645 10.2997 0Z"/>
+<path id="path2_fill" d="M 0.84112 16.2922L 2.1895 17.3036L 2.1895 20.5878C 2.1895 20.7353 2.2191 20.8783 2.27395 21.0095L 6.56844 18.6236L 6.56844 12.3273L 0.84112 16.2922Z"/>
+<path id="path3_fill" d="M 3.17873 21.759L 4.34783 22.3435L 3.83274 32.8566C 3.80527 33.4607 4.27266 33.9725 4.87669 34L 17.0181 34C 17.6221 33.9725 18.0895 33.4607 18.062 32.8566L 17.547 22.3435L 18.7161 21.759L 14.6373 19.4931L 7.25746 19.4931L 3.17873 21.759Z"/>
+<path id="path4_fill" d="M 19.6208 21.0095C 19.6757 20.8783 19.7053 20.7353 19.7053 20.5878L 19.7053 17.3079L 21.066 16.3008L 15.3263 12.3273L 15.3263 18.6236L 19.6208 21.0095Z"/>
+<path id="path5_fill" d="M 10.9474 1.51889L 14.0195 10.7352L 7.87526 10.7352L 10.9474 1.51889Z"/>
+<path id="path6_fill" d="M 14.2316 18.3983L 14.2316 11.8299L 7.66318 11.8299L 7.66318 18.3983L 14.2316 18.3983Z"/>
+</defs>
+</svg>

@@ -16,7 +16,11 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://adhdopedia.geeksy.tech/)
+<div align="center">
+  <a href="https://adhdopedia.geeksy.tech/">
+    <img src="images/screenshot.png" alt="img" width="600" height="320">
+  </a>
+  </div>
 
 ADHDOpedia is online learning platform for ADHD Students where are able to manage their courses through plenty of useful tools. The website includes a pomodoro timer as it is proved as an effective technique for staying focused. It provides a to do list as well as classes schedule so that the student is reminded by his assignments. To ensure that he/she is paying attention while the timer is on, their eye movements are monitored via the webcam. Accordingly, they get notified when being distracted for a while. On the website, students can receive their grades, contact teachers, get access to course materials along with other beneficial books. They get notified whenever a teacher posts an announcement. In order to boost their morale, a chatting feature is added to allow individuals diagnosed with this disorder to form a supporting community. 
 
@@ -49,7 +53,6 @@ Important one:
 Here is an Access data to test the software.
 * Info
   ```sh
-  Username:""
-  Pass:""
+  Username:"Demo"
+  Pass:"1234"
   ```
-<p align="right">(<a href="#top">back to top</a>)</p>

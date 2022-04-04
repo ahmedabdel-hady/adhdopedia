@@ -22,7 +22,8 @@
   </a>
   </div>
 
-ADHDOpedia is online learning platform for ADHD Students where are able to manage their courses through plenty of useful tools. The website includes a pomodoro timer as it is proved as an effective technique for staying focused. It provides a to do list as well as classes schedule so that the student is reminded by his assignments. To ensure that he/she is paying attention while the timer is on, their eye movements are monitored via the webcam. Accordingly, they get notified when being distracted for a while. On the website, students can receive their grades, contact teachers, get access to course materials along with other beneficial books. They get notified whenever a teacher posts an announcement. In order to boost their morale, a chatting feature is added to allow individuals diagnosed with this disorder to form a supporting community. 
+
+<p>ADHDOpedia is online learning platform for ADHD Students where are able to manage their courses through plenty of useful tools. The website includes a pomodoro timer as it is proved as an effective technique for staying focused. It provides a to do list as well as classes schedule so that the student is reminded by his assignments. To ensure that he/she is paying attention while the timer is on, their eye movements are monitored via the webcam. Accordingly, they get notified when being distracted for a while. On the website, students can receive their grades, contact teachers, get access to course materials along with other beneficial books. They get notified whenever a teacher posts an announcement. In order to boost their morale, a chatting feature is added to allow individuals diagnosed with this disorder to form a supporting community. </p>
 
 
 
